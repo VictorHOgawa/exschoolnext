@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Layout/Header/Header";
-import Footer from "../components/Layout/Footer/Footer";
+import FooterThree from "../components/Layout/Footer/FooterStyleThree";
 import HomeMain from "../components/Home/HomeMain";
 
 class Index extends React.Component {
@@ -15,7 +15,9 @@ class Index extends React.Component {
       <React.Fragment>
         <Header />
         <HomeMain />
-        <Footer />
+        <br />
+        <br />
+        <FooterThree />
       </React.Fragment>
     );
   }

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Cta from "../Home/CtaSection";
 import dynamic from "next/dynamic";
 const Tabs = dynamic(
   import("react-tabs").then((mod) => mod.Tabs),
@@ -797,10 +796,6 @@ class CourseDetailsMain extends Component {
             </div>
           </section>
           {/* course tab-end */}
-
-          {/* cta-start */}
-          <Cta />
-          {/* cta-end */}
         </main>
       </React.Fragment>
     );

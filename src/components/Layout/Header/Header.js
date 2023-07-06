@@ -148,132 +148,19 @@ const Header = () => {
                   <div className="main-menu d-none d-xl-block">
                     <nav id="mobile-menu">
                       <ul>
-                        <li className="has-dropdown">
-                          <Link href="/">
-                            <a>Home</a>
-                          </Link>
-                          <ul className="submenu">
-                            <li>
-                              <Link href="/">
-                                <a>Estilo 1</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/home-2">
-                                <a>Estilo 2</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/home-3">
-                                <a>Estilo 3</a>
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="has-dropdown">
-                          <Link href="/course-grid">
-                            <a>Cursos</a>
-                          </Link>
-                          <ul className="submenu">
-                            <li>
-                              <Link href="/course-grid">
-                                <a>Cursos</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/course-list">
-                                <a>Lista de Cursos</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/course-sidebar">
-                                <a>Sidebar dos Cursos</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/course-details">
-                                <a>Cursos Detalhados</a>
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="has-dropdown">
-                          <Link href="/blog">
-                            <a>Blog</a>
-                          </Link>
-                          <ul className="submenu">
-                            <li>
-                              <Link href="/blog">
-                                <a>Blog</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/blog-details">
-                                <a>Detalhes do Blog</a>
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="has-dropdown">
-                          <Link href="/course-grid">
-                            <a>Páginas</a>
-                          </Link>
-                          <ul className="submenu">
-                            <li>
-                              <Link href="/about">
-                                <a>Sobre Nós</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/instructor">
-                                <a>Instrutores</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/instructor-details">
-                                <a>Detalhes dos Instrutores</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/event-details">
-                                <a>Detalhes dos Eventos</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/cart">
-                                <a>Carrinho</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/wishlist">
-                                <a>Lista de Compras</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/checkout">
-                                <a>Checkout</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/sign-in">
-                                <a>Entrar</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/sign-up">
-                                <a>Registrar</a>
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/error">
-                                <a>Error</a>
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
                         <li>
                           <Link href="/contact">
                             <a>Fale Conosco</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/sign-in">
+                            <a>Entrar</a>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/sign-up">
+                            <a>Registrar</a>
                           </Link>
                         </li>
                       </ul>

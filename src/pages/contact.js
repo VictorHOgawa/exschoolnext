@@ -1,6 +1,6 @@
 import React from "react";
 import ContactMain from "../components/Contact/ContactMain";
-import HeaderThree from "../components/Layout/Header/HeaderStyleThree";
+import Header from "../components/Layout/Header/Header";
 import FooterThree from "../components/Layout/Footer/FooterStyleThree";
 
 class Contact extends React.Component {
@@ -13,7 +13,7 @@ class Contact extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <HeaderThree />
+        <Header />
         <ContactMain />
         <FooterThree />
       </React.Fragment>

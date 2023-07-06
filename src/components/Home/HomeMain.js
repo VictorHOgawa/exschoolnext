@@ -1,11 +1,18 @@
 import React, { Component } from "react";
 import Hero from "./HeroSection";
-import Category from "./CategorySection";
-import Banner from "./BannerSection";
-import Event from "./EventSection";
-import Cta from "./CtaSection";
-import PriceTab from "../Elements/Tab/PriceTab";
-import CourseTab from "../Elements/Tab/CourseTab";
+import Service from "./ServiceSection";
+import About from "./AboutSection";
+import dynamic from "next/dynamic";
+import Course from "./CourseSection";
+import Teacher from "./TeacherSection";
+import CtaThree from "./CtaSectionThree";
+import Skilline from "./SkillineSection";
+import TestimonialThree from "./TestimonialSectionThree";
+import WhyChoose from "./WhyChooseSection";
+
+const BrandWithNoSSR = dynamic(() => import("../Elements/Brand/BrandSection"), {
+  ssr: false,
+});
 
 class HomeMain extends Component {
   render() {
@@ -16,27 +23,33 @@ class HomeMain extends Component {
         {/* hero-end */}
 
         {/* category-start */}
-        <Category />
+        <Service />
         {/* category-end */}
 
         {/* banner-start */}
-        <Banner />
+        <About />
         {/* banner-end */}
 
+        <BrandWithNoSSR />
+
         {/* course-start */}
-        <CourseTab />
+        <Course />
         {/* course-end */}
 
         {/* event-start */}
-        <Event />
+        <Teacher />
         {/* event-end */}
 
         {/* tab-start */}
-        <PriceTab />
+        <CtaThree />
         {/* tab-end */}
 
+        <Skilline />
+
+        <TestimonialThree />
+
         {/* cta-start */}
-        <Cta />
+        <WhyChoose />
         {/* cta-end */}
       </main>
     );

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Cta from "../Home/CtaSection";
 import Link from "next/link";
 
 class InstructorDetailsMain extends Component {
@@ -432,10 +431,6 @@ class InstructorDetailsMain extends Component {
             </div>
           </div>
         </section>
-
-        {/* cta-start */}
-        <Cta />
-        {/* cta-end */}
       </main>
     );
   }

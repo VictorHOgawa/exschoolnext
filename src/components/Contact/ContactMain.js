@@ -14,10 +14,6 @@ class ContactMain extends Component {
         {/* Getintouch-start */}
         <GetInTouch />
         {/* Getintouch-end */}
-
-        {/* Getintouch-start */}
-        <Knowledge />
-        {/* Getintouch-end */}
       </main>
     );
   }
